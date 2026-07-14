@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE/editor state
+.idea/
+.vscode/
+*.swp
+
+# ESR input data and generated analysis artifacts
+*.dat
+*.esrsession
+FIT_out/
+fit_output/
+fitted_measurements/
+analysis_output/
+exports/
+plots/
+sessions/
+
+# Local test/render artifacts
+browser_reference_test.png
+*.log
